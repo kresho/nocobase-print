@@ -1,0 +1,28 @@
+{
+	"name": "@multimodus/plugin-action-mmprint",
+	"version": "1.0.5",
+	"main": "dist/server/index.js",
+	"displayName": "Action: Print (Multimodus)",
+	"devDependencies": {
+		"@formily/react": "2.x",
+		"@formily/shared": "2.x",
+		"antd": "5.x",
+		"axios": "1.7.x",
+		"lodash": "4.x",
+		"react-i18next": "^11.15.1",
+		"react-router-dom": "6.x"
+	},
+	"peerDependencies": {
+		"@nocobase/client": "1.x",
+		"@nocobase/server": "1.x",
+		"@nocobase/test": "1.x"
+	},
+	"keywords": [
+		"Actions"
+	],
+	"dependencies": {
+		"@types/carbone": "^3.2.5",
+		"carbone-sdk": "^1.6.0",
+		"filtrex": "^3.1.0"
+	}
+}
